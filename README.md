@@ -50,3 +50,8 @@ use lastguest\Murmur;
 echo Murmur::hash3_int("Hello World");
 // 427197390
 ```
+
+## Depreciation
+
+As of PHP 8.1, you can use PHP `hash` function instead of this package : [more information here](https://php.watch/versions/8.1/MurmurHash3)
+
